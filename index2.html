@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacts - MedLine</title>
+  <link rel="stylesheet" href="styless2.css">
+</head>
+<body>
+  <header>
+    <h1>MedLine</h1>
+    <h2>Contact Us</h2>
+  </header>
+
+  <main class="content">
+    
+    <section>
+      <h2 id="page-title">Our Services</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Doctor</th>
+            <th>Service</th>
+            <th>Rating</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="2">Dr. Dilnaz</td>
+            <td>Oncology Consultation</td>
+            <td>★★★★★</td>
+          </tr>
+          <tr>
+            <td>Cancer Screening</td>
+            <td>★★★★☆</td>
+          </tr>
+          <tr class="highlight-row">
+            <td>Dr. Ayau</td>
+            <td colspan="2">Highly Recommended Specialist</td>
+          </tr>
+          <tr>
+            <td>Dr.Aigerim</td>
+            <td>Nutrition & Recovery Program</td>
+            <td>★★★★☆</td>
+          </tr>
+
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Feedback Form -->
+    <section>
+      <h2 id="form-title">Feedback Form</h2>
+      <form id="feedback-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <label for="role">Who are you?</label>
+        <select id="role" name="role">
+          <option>Patient</option>
+          <option>Doctor</option>
+          <option>Visitor</option>
+        </select>
+
+        <label>Would you recommend MedLine?</label>
+        <input type="radio" name="like" value="Yes"> Yes
+        <input type="radio" name="like" value="No"> No
+
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments"></textarea>
+
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
+    </section>
+
+    <div class="links">
+      <a href="../index.html" class="btn">Back to Home</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 MedLine | Your Health, Our Priority</p>
+  </footer>
+</body>
+</html>
+
