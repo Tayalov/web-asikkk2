@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0fff0; 
+}
+
+.header .logo {
+    width: 175px;        
+    position: absolute; 
+    top: 50%;           
+    left: 20px;        
+    transform: translateY(-50%); 
+    border-radius: 10px; 
+}
+
+.header {
+    background-color: green; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.navbar {
+    background-color: #add8e6; 
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar a {
+    color: green;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.navbar a.active {
+    background-color: green;
+    color: white;
+}
+
+.navbar a:hover {
+    background-color: green;
+    color: white;
+}
+
+.content {
+    flex: 1; 
+    padding: 20px;
+    overflow: auto; 
+    background-color: white;
+}
+
+.sidebar {
+    width: 25%;
+    float: left;
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+}
+
+.aside {
+    width: 70%;
+    float: right;
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+.footer {
+    clear: both;
+    background-color: green; 
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: auto; 
+}
+
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
