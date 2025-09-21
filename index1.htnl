@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Us - MedLine</title>
+  <link rel="stylesheet" href="styless1.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div>
+        <h1><b>MedLine</b></h1>
+        <h2>About Our Mission</h2>
+      </div>
+    </div>
+  </header>
+
+ 
+  <div class="content">
+    <img src="medical.jpeg" alt="MedLine Logo" class="portrait">
+    
+    <p>
+      At <strong>MedLine</strong>, we are committed to fighting oncology.  
+      Our goal is to study cancer, understand its causes, and develop new ways to diagnose and treat it.  
+      We believe that by combining advanced medical research with compassionate care, we can give hope to millions of patients worldwide.  
+      MedLine strives to become a place where science and humanity work together to defeat cancer.
+    </p>
+    <p>
+    MedLine was founded in 2025 with the goal of becoming a place where medical 
+    knowledge, research, and patient care come together. Although we are a young 
+    organization, we are full of energy, determination, and a strong mission to 
+    improve people’s lives.
+  </p>
+  <p>
+    Our main focus is on oncology — studying the causes of cancer, finding new 
+    diagnostic tools, and working on effective treatments. At the same time, we 
+    are committed to raising awareness about prevention, early detection, and 
+    supporting patients and their families during difficult times.
+  </p>
+  <p>
+    We believe this is only the beginning. In the coming years, MedLine will 
+    continue to grow, expand its services, and contribute to many good causes 
+    in healthcare. Together with our partners and community, we aim to build a 
+    future where medicine is not only about treatment, but also about hope, 
+    compassion, and innovation.
+  </p>
+
+    <h3>Our Key Objectives</h3>
+    <ol>
+      <li>Research the root causes of cancer</li>
+      <li>Develop effective diagnostic methods</li>
+      <li>Create advanced treatment strategies</li>
+      <li>Support patients and their families</li>
+      <li>Promote global awareness and prevention</li>
+    </ol>
+
+    <h3>Our Contributions</h3>
+    <ul>
+      <li>Oncology research programs</li>
+      <li>Innovative medical technologies</li>
+      <li>Clinical trials for cancer treatment</li>
+      <li>Educational health initiatives</li>
+    </ul>
+
+    <div class="links">
+      <a href="https://www.who.int/cancer/en/" target="_blank" class="btn">Learn More</a>
+      <a href="../index.html" class="btn">Back to Home</a>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>© 2025 My Website | Your Health, Our Priority</p>
+  </div>
+
+</body>
+</html>
